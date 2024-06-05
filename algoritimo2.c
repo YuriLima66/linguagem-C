@@ -1,8 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<locale.h>
-main()
-{
+main(){
 	setlocale(LC_ALL,"Portuguese");
 	float pol,mm;//declarando as variaveis
 	//entrada 
@@ -14,5 +13,5 @@ main()
 	//saida
 	system("cls");//vem do stdlib, significa Limpar
 	printf("\n%.1f polegadas é equivalente á %.1f milimetros.",pol,mm);
-	]
+	
 }
